@@ -14,7 +14,7 @@ const routes = {
   "k8s.nhrnick.com": "https://registry.k8s.io",
   "ghcr.nhrnick.com": "https://ghcr.io",
   "cloudsmith.nhrnick.com": "https://docker.cloudsmith.io",
-  "go.nhrnick.com":"https://www.google.com"
+  "go.nhrnick.com":"https://www.google.com",
 
   // staging
   "docker-staging.nhrnick.com": dockerHub,
