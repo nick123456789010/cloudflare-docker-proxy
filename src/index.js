@@ -15,7 +15,8 @@ const routes = {
   "ghcr.nhrnick.com": "https://ghcr.io",
   "cloudsmith.nhrnick.com": "https://docker.cloudsmith.io",
   "go.nhrnick.com":"https://www.google.com",
-
+  "te.nhrnick.com":"https://telegram.org"
+    
   // staging
   "docker-staging.nhrnick.com": dockerHub,
 };
