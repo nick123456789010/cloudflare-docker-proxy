@@ -20,6 +20,7 @@ routes = [
   { pattern = "k8s.nhrnick.com", custom_domain = true },
   { pattern = "ghcr.nhrnick.com", custom_domain = true },
   { pattern = "cloudsmith.nhrnick.com", custom_domain = true },
+  { pattern = "go.nhrnick.com", custom_domain = true },
 ]
 
 [env.production.vars]
