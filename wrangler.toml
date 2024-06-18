@@ -22,6 +22,7 @@ routes = [
   { pattern = "cloudsmith.nhrnick.com", custom_domain = true },
   { pattern = "go.nhrnick.com", custom_domain = true },
   { pattern = "te.nhrnick.com", custom_domain = true },
+  { pattern = "dockerhub.nhrnick.com", custom_domain = true },
 ]
 
 [env.production.vars]
