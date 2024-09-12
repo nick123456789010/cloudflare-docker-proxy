@@ -7,19 +7,20 @@ const dockerHub = "https://registry-1.docker.io";
 
 const routes = {
   // production
-  "docker.nhrnick.com": dockerHub,
-  "quay.nhrnick.com": "https://quay.io",
-  "gcr.nhrnick.com": "https://gcr.io",
-  "k8s-gcr.nhrnick.com": "https://k8s.gcr.io",
-  "k8s.nhrnick.com": "https://registry.k8s.io",
-  "ghcr.nhrnick.com": "https://ghcr.io",
-  "cloudsmith.nhrnick.com": "https://docker.cloudsmith.io",
-  "go.nhrnick.com":"https://www.google.com",
-  "te.nhrnick.com":"https://telegram.org",
-  "dockerhub.nhrnick.com":"https://hub.docker.com",
+  "docker.nhrnick.us.kg": dockerHub,
+  "quay.nhrnick.us.kg": "https://quay.io",
+  "gcr.nhrnick.us.kg": "https://gcr.io",
+  "k8s-gcr.nhrnick.us.kg": "https://k8s.gcr.io",
+  "k8s.nhrnick.us.kg": "https://registry.k8s.io",
+  "ghcr.nhrnick.us.kg": "https://ghcr.io",
+  "cloudsmith.nhrnick.us.kg": "https://docker.cloudsmith.io",
+  "go.nhrnick.us.kg":"https://www.google.com",
+  "te.nhrnick.us.kg":"https://telegram.org",
+  "dockerhub.nhrnick.us.kg":"https://hub.docker.com",
+  "github.nhrnick.us.kg":"https://github.com/",
     
   // staging
-  "docker-staging.nhrnick.com": dockerHub,
+  "docker-staging.nhrnick.us.kg": dockerHub,
 };
 
 function routeByHosts(host) {
