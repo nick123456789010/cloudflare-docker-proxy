@@ -13,16 +13,16 @@ TARGET_UPSTREAM = "https://registry-1.docker.io"
 [env.production]
 name = "cloudflare-docker-proxy"
 routes = [
-  { pattern = "docker.nhrnick.com", custom_domain = true },
-  { pattern = "quey.nhrnick.com", custom_domain = true },
-  { pattern = "gcr.nhrnick.com", custom_domain = true },
-  { pattern = "k8s-gcr.nhrnick.com", custom_domain = true },
-  { pattern = "k8s.nhrnick.com", custom_domain = true },
-  { pattern = "ghcr.nhrnick.com", custom_domain = true },
-  { pattern = "cloudsmith.nhrnick.com", custom_domain = true },
-  { pattern = "go.nhrnick.com", custom_domain = true },
-  { pattern = "te.nhrnick.com", custom_domain = true },
-  { pattern = "dockerhub.nhrnick.com", custom_domain = true },
+  { pattern = "docker.nhrnick.us.kg", custom_domain = true },
+  { pattern = "quey.nhrnick.us.kg", custom_domain = true },
+  { pattern = "gcr.nhrnick.us.kg", custom_domain = true },
+  { pattern = "k8s-gcr.nhrnick.us.kg", custom_domain = true },
+  { pattern = "k8s.nhrnick.us.kg", custom_domain = true },
+  { pattern = "ghcr.nhrnick.us.kg", custom_domain = true },
+  { pattern = "cloudsmith.nhrnick.us.kg", custom_domain = true },
+  { pattern = "go.nhrnick.us.kg", custom_domain = true },
+  { pattern = "te.nhrnick.us.kg", custom_domain = true },
+  { pattern = "dockerhub.nhrnick.us.kg", custom_domain = true },
 ]
 
 [env.production.vars]
@@ -31,7 +31,7 @@ TARGET_UPSTREAM = ""
 
 [env.staging]
 name = "cloudflare-docker-proxy-staging"
-route = { pattern = "docker-staging.nhrnick.com", custom_domain = true }
+route = { pattern = "docker-staging.nhrnick.us.kg", custom_domain = true }
 
 [env.staging.vars]
 MODE = "staging"
