@@ -37,3 +37,4 @@ route = { pattern = "docker-staging.nhrnick.us.kg", custom_domain = true }
 [env.staging.vars]
 MODE = "staging"
 TARGET_UPSTREAM = ""
+
