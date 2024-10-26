@@ -21,7 +21,7 @@ const routes = {
   "planel4server00.nhrnick.us.kg":"planel4.seve00.com"
     
   // staging
-  "docker-staging.nhrnick.us.kg": dockerHub,
+  "docker-staging.nhrnick.us.kg": dockerHub
 };
 
 function routeByHosts(host) {
