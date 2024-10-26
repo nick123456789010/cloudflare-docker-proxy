@@ -18,7 +18,7 @@ const routes = {
   "te.nhrnick.us.kg":"https://telegram.org",
   "dockerhub.nhrnick.us.kg":"https://hub.docker.com",
   "github.nhrnick.us.kg":"https://github.com/",
-  "planel4server00":"planel4.seve00.com"
+  "planel4server00.nhrnick.us.kg":"planel4.seve00.com"
     
   // staging
   "docker-staging.nhrnick.us.kg": dockerHub,
