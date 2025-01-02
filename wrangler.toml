@@ -25,6 +25,8 @@ routes = [
   { pattern = "dockerhub.nhrnick.us.kg", custom_domain = true },
   { pattern = "planel4server00.nhrnick.us.kg", custom_domain = true },
   { pattern = "github.nhrnick.us.kg", custom_domain = true },
+  { pattern = "nhrzlib.nhrnick.us.kg", custom_domain = true },
+  
 ]
 
 [env.production.vars]
