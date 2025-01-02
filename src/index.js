@@ -19,6 +19,7 @@ const routes = {
   "dockerhub.nhrnick.us.kg":"https://hub.docker.com",
   "github.nhrnick.us.kg":"https://github.com/",
   "planel4server00.nhrnick.us.kg":"planel4.seve00.com",
+  "nhrzlib.nhrnick.us.kg":"zh.z-lib.gs",
     
   // staging
   "docker-staging.nhrnick.us.kg": dockerHub
