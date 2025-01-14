@@ -13,7 +13,7 @@ TARGET_UPSTREAM = "https://registry-1.docker.io"
 [env.production]
 name = "cloudflare-docker-proxy"
 routes = [
-  { pattern = "docker.nhrnick.us.kg", custom_domain = true },
+  { pattern = "docker.nhr.us.kg", custom_domain = true },
   { pattern = "quey.nhrnick.us.kg", custom_domain = true },
   { pattern = "gcr.nhrnick.us.kg", custom_domain = true },
   { pattern = "k8s-gcr.nhrnick.us.kg", custom_domain = true },
@@ -22,7 +22,7 @@ routes = [
   { pattern = "cloudsmith.nhrnick.us.kg", custom_domain = true },
   { pattern = "go.nhrnick.us.kg", custom_domain = true },
   { pattern = "te.nhrnick.us.kg", custom_domain = true },
-  { pattern = "dockerhub.nhr.us.kg", custom_domain = true },
+  { pattern = "dockerhub.nhrnick.us.kg", custom_domain = true },
   { pattern = "planel4server00.nhrnick.us.kg", custom_domain = true },
   { pattern = "github.nhrnick.us.kg", custom_domain = true },
   { pattern = "nhrzlib.nhrnick.us.kg", custom_domain = true },
