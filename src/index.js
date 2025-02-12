@@ -20,7 +20,7 @@ const routes = {
   "github.nhrnick.us.kg":"https://github.com/",
   "planel4server00.nhrnick.us.kg":"planel4.seve00.com",
   "nhrzlib.nhrnick.us.kg":"zh.z-lib.gs",
-    
+  "nhrp.nhrnick.us.kg":"www.pixiv.net",
   // staging
   "docker-staging.nhrnick.us.kg": dockerHub
 };
